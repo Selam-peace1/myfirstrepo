@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "db981673-8b16-432d-abb1-561e8b2696b4",
+		"name": "ONE WAY SSL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23553853",
+		"_collection_link": "https://bold-capsule-400561.postman.co/workspace/Testers~9b8ba61f-f8ba-4974-b1f0-132f6c1ada93/collection/23553853-db981673-8b16-432d-abb1-561e8b2696b4?action=share&source=collection_link&creator=23553853"
+	},
+	"item": [
+		{
+			"name": "CLIENT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8081/client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SERVER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8081/server",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"server"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
